@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+ul{
+    display: inline-flex;
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+}
+ul li{
+    margin: 10px;
+}
+ul li a{
+    color: black;
+    font-size: 15px;
+}
+ul li a:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}
+.a{
+    margin: 0;
+    padding: 0px;
+}
+.a:hover{
+    background-color: rgb(226, 226, 226);
+    border-radius: 50%;
+}
+.b:hover{
+    background-color: rgb(226, 226, 226);
+    border-radius: 35%;
+}
+.for{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    width: 700px;
+}
+.gog{
+    width: 300px;
+    align-items: center;
+}
+.search{
+    width: 600px;
+    height: 45px;
+    border-radius: 100px;
+    outline: 1px solid rgb(212, 211, 211);
+    display: inline-flex;
+    padding: 10px;
+}
+.search:hover{
+    box-shadow: 0px 1px 7px 1px rgb(201, 200, 200);
+    outline: none;
+}
+input{
+    outline: none;
+    border: none;
+    margin-left: 15px !important;
+    width: 700px;
+    height: 25px;
+}
+.buttonnn{
+    display: inline-flex;
+    margin: 30px;
+}
+button{
+    background-color:whitesmoke;
+    margin:0px 5px !important;
+    padding: 5px;
+    border-radius: 3px !important;
+    font-size: 15px !important;
+    width: 130px;
+}
+button:hover{
+    box-shadow: 0px 0px 3px 0px rgb(224, 223, 223);
+    outline: 1px solid rgb(224, 223, 223);
+}
+.tec{
+    display: inline-flex;
+    margin: 0px 505px 0px 0px;
+    font-size: 13px;
+    padding: 0px !important;
+}
+.ll{
+    margin: 5px;
+}
+.A{
+    text-decoration: none !important;
+    color:rgb(0, 34, 134);
+    font-size: 13px;
+}
+.A:hover{
+    border-bottom: 1px solid rgb(0, 34, 134);
+    color: rgb(0, 34, 134);
+}
